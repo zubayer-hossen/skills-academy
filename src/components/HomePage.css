@@ -1,0 +1,126 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.homepage {
+  background-color: transparent;
+}
+
+/* Hero Section */
+.hero {
+  background: url("https://dl.dropboxusercontent.com/scl/fi/0erke2ysh2wysjq6g6n11/sebastian-svenson-LpbyDENbQQg-unsplash.jpg?rlkey=b1hd0g65ynfidd2m6tlx7fdm5&dl=0")
+    no-repeat center center/cover;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #0056b3;
+}
+
+/* Introduction Section */
+.introduction {
+  background-color: #496570;
+  padding: 60px 0;
+}
+
+.introduction .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.intro-img {
+  width: 300px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+  border-radius: 5px;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.intro-text {
+  max-width: 600px;
+}
+
+.introduction h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.introduction p {
+  font-size: 1.2rem;
+  color: #f1f0f0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  .intro-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro-img {
+    margin-bottom: 20px;
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 1;
+  }
+}

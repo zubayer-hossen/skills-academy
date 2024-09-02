@@ -1,0 +1,12 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: url("https://dl.dropboxusercontent.com/scl/fi/0erke2ysh2wysjq6g6n11/sebastian-svenson-LpbyDENbQQg-unsplash.jpg?rlkey=b1hd0g65ynfidd2m6tlx7fdm5&dl=0")
+    no-repeat center center/cover;
+  height: 100vh;
+  width: 100%;
+  overflow-y: scroll;
+}

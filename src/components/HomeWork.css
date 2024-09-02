@@ -1,0 +1,54 @@
+.pdf-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.pdf-card {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+}
+
+.pdf-cover {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.pdf-info {
+  padding: 10px;
+}
+
+.pdf-info h3 {
+  margin: 10px 0;
+}
+
+.pdf-info p {
+  color: #666;
+}
+
+.download-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #3182ce;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  opacity: 0.25;
+}
