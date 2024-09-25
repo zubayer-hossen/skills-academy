@@ -31,8 +31,8 @@ const HomePage = () => {
                 As the vice president and publicity editor of the local
                 organization "ইশাস সংগঠন," he actively contributes to various
                 human welfare initiatives and developmental activities. Zubayer
-                is also an enthusiastic learner, currently focused on his IELTS
-                preparation and honing his spoken English skills. His expertise
+                is also an enthusiastic learner, currently focused on 
+                his spoken English skills. His expertise
                 in web development is demonstrated through his work on creating
                 responsive, animated, and engaging websites, including projects
                 that showcase class videos and homework assignments. In his free
