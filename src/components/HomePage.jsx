@@ -25,7 +25,7 @@ const HomePage = () => {
             <div className="intro-text">
               <h2>About Me</h2>
               <p>
-                Certainly! Here's a short description about you: Zubayer Hossen
+                Zubayer Hossen
                 is a dedicated and skilled web developer and student with a
                 passion for enhancing his community through digital innovation.
                 As the vice president and publicity editor of the local
